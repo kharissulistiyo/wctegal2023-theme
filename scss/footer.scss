@@ -1,0 +1,20 @@
+.footer-widgets-wrapper {
+  .column-one,
+  .column-two {
+    .widget {
+      width: 570px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .footer-widgets-wrapper {
+    display: block !important;
+  }
+  .footer-widgets-wrapper .footer-widgets {
+    width: 100%;
+  }
+}

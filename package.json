@@ -1,0 +1,12 @@
+{
+  "name": "wctegal2023-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --style=compressed style.scss:style.min.css"
+  },
+  "keywords": [],
+  "author": "WordPress Tegal",
+  "license": "ISC"
+}
